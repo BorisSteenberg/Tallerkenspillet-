@@ -62,7 +62,7 @@ html { scroll-behavior: smooth; }
 
 /* HERO */
 .hero {
-    background-image: url(logo.Png);
+    background-image: url(logo.png);
     background-size: cover;
     background-position: center 125%;
     background-attachment: fixed;
@@ -302,4 +302,5 @@ footer {
     }
 
 }
+
 
