@@ -164,10 +164,11 @@ footer {
     padding: 100px 20px;
     min-height: 100vh;
 
-    background-image: url("havespil.png"); /* dit billede */
-     background-size: 60%; 
-    background-position: center bottom; /*Så bunden kan ses*/
-    background-attachment: fixed;
+    background-image: url("havespil.png");
+    background-size: contain;      /* hele billedet vises */
+    background-position: center bottom;
+    background-repeat: no-repeat;  /* undgår gentagelse */
+    background-attachment: scroll; /* lad billedet rulle med */
 }
 
 /* mørk overlay så teksten kan læses */
@@ -316,6 +317,7 @@ footer {
     }
 
 }
+
 
 
 
