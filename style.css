@@ -165,7 +165,7 @@ footer {
     min-height: 100vh;
 
     background-image: url("havespil.png"); /* dit billede */
-     background-size: 90%; 
+     background-size: 60%; 
     background-position: center bottom; /*Så bunden kan ses*/
     background-attachment: fixed;
 }
@@ -316,6 +316,7 @@ footer {
     }
 
 }
+
 
 
 
