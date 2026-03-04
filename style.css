@@ -236,18 +236,10 @@ footer {
 }
 
 /* ===== OVERSKRIFTER ===== */
-.checkout-left h2,
-.checkout-right h3 {
-    font-size: 24px;   /* sæt den ønskede størrelse */
-    font-weight: 600;  /* gør dem lige fede */
-    margin-bottom: 25px; /* afstand til indhold */
-}
-/* Gør overskrifter i checkout ens */
-.checkout-left h2,
-.checkout-right h3 {
-    font-size: 24px;   /* sæt den ønskede størrelse */
-    font-weight: 600;  /* gør dem lige fede */
-    margin-bottom: 25px; /* afstand til indhold */
+.checkout-title {
+    font-size: 24px;    /* sæt den størrelse du vil have */
+    font-weight: 600;   /* ens vægt */
+    margin-bottom: 25px; /* ens margin */
 }
 
 
@@ -324,6 +316,7 @@ footer {
     }
 
 }
+
 
 
 
