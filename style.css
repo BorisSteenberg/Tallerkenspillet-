@@ -235,8 +235,13 @@ footer {
     outline: none;
 }
 
-    }
-
+/* ===== OVERSKRIFTER ===== */
+.checkout-left h2,
+.checkout-right h3 {
+    font-size: 24px;   /* sæt den ønskede størrelse */
+    font-weight: 600;  /* gør dem lige fede */
+    margin-bottom: 25px; /* afstand til indhold */
+}
 /* Gør overskrifter i checkout ens */
 .checkout-left h2,
 .checkout-right h3 {
@@ -319,6 +324,7 @@ footer {
     }
 
 }
+
 
 
 
