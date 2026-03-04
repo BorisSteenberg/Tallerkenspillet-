@@ -166,7 +166,7 @@ footer {
 
     background-image: url("havespil.png"); /* dit billede */
     background-size: cover;
-    background-position: center bottom; /*Så bunden kan ses
+    background-position: center bottom; /*Så bunden kan ses*/
     background-attachment: fixed;
 }
 
@@ -316,6 +316,7 @@ footer {
     }
 
 }
+
 
 
 
