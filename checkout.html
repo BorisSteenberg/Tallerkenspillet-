@@ -46,6 +46,7 @@
             <div>
                 <p class="product-name">Tallerkenspillet Standard</p>
                 <p class="product-price">499 kr.</p>
+                <p>Antal: <input type="number" id="quantity" value="1" min="1" style="width:60px;"></p>
             </div>
         </div>
 
@@ -69,6 +70,42 @@
     </div>
 
 </section>
+<form class="checkout-form">
+    <input type="text" placeholder="Fulde navn" required>
+    <input type="email" placeholder="Email" required>
+    <input type="text" placeholder="Adresse" required>
+    <input type="text" placeholder="Postnummer og by" required>
+
+    <!-- NYT: Antal input -->
+    <label for="quantity">Antal:</label>
+    <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+    <button class="btn">Gennemfør betaling</button>
+</form>
+
+<!-- JAVASCRIPT TIL ANTAL-->
+ <script>
+const quantityInput = document.getElementById('quantity');
+const priceElement = document.querySelector('.product-price');
+const subtotalElement = document.querySelector('.price-row span:last-child');
+const totalElement = document.querySelector('.total-row span:last-child');
+
+const price = parseInt(priceElement.textContent.replace(' kr.', ''));
+
+function updateTotal() {
+    const quantity = parseInt(quantityInput.value) || 1;
+    const subtotal = price * quantity;
+    subtotalElement.textContent = subtotal + ' kr.';
+    totalElement.textContent = subtotal + ' kr.'; // Fragt er gratis, så total = subtotal
+}
+
+// Lyt på ændringer i antal
+quantityInput.addEventListener('input', updateTotal);
+
+// Initial opdatering
+updateTotal();
+</script>
 
 </body>
 </html>
+
