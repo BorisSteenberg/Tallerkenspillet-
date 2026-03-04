@@ -164,7 +164,7 @@ footer {
     padding: 100px 20px;
     min-height: 100vh;
 
-    background-image: url("Havespil.Png"); /* dit billede */
+    background-image: url("havespil.Png"); /* dit billede */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -302,3 +302,4 @@ footer {
     }
 
 }
+
