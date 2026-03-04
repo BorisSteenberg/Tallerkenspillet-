@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout – Tallerkenspillet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="checkout-header">
+    <div class="company-name">Havespillet A/S</div>
+    <img src="logo.png" class="checkout-logo">
+</header>
+
+<section class="checkout-wrapper">
+
+    <div class="checkout-left">
+
+        <h2>Leveringsoplysninger</h2>
+
+        <form class="checkout-form">
+            <input type="text" placeholder="Fulde navn" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Adresse" required>
+            <input type="text" placeholder="Postnummer og by" required>
+
+            <button class="pay-btn">Gennemfør betaling</button>
+        </form>
+
+        <div class="trust">
+            🔒 Sikker betaling<br>
+            🚚 Levering 2–4 hverdage<br>
+            ↩️ 14 dages returret
+        </div>
+
+    </div>
+
+    <div class="checkout-right">
+
+        <h3>Din ordre</h3>
+
+        <div class="product-summary">
+            <img src="produkt.jpg" class="product-image">
+
+            <div>
+                <p class="product-name">Tallerkenspillet Standard</p>
+                <p class="product-price">499 kr.</p>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="price-row">
+            <span>Subtotal</span>
+            <span>499 kr.</span>
+        </div>
+
+        <div class="price-row">
+            <span>Fragt</span>
+            <span>Gratis</span>
+        </div>
+
+        <div class="total-row">
+            <span>Total</span>
+            <span>499 kr.</span>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
